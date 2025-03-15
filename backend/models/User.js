@@ -2,11 +2,10 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 const UserSchema = new mongoose.Schema({
-    fullName:{type: String, requied:true},
-    email:{type: String, requied: true},
-    password: {type:String , requied:true},
-    profileImageUrl:{type:String ,default:null},
-   
+    fullName: { type: String, required: true }, // Fixed typo
+    email: { type: String, required: true },   // Fixed typo
+    password: { type: String, required: true }, // Fixed typo
+    profileImageUrl: { type: String, default: "" }, // This is fine
 },
 {timestamps:true});
 
