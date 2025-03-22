@@ -10,10 +10,11 @@
 @layer base{
     html{
         font-family: var(--font-display);
+        background-color: black;
     }
 
     body{
-        background-color:#fcfbfc;
+        background-color:black;
         overflow-x: hidden;
     }
 }
